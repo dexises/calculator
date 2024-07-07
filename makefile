@@ -1,7 +1,6 @@
 GOROUTINES = 1
 FILE = data.json
 
-# Определяем команды
 .PHONY: all build run test clean generate
 
 all: build

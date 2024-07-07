@@ -42,11 +42,10 @@ func TestReadFile(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			// Создаем временный JSON файл для тестирования
 			if err := os.WriteFile(tt.fileName, []byte(tt.content), 0644); err != nil {
 				t.Fatalf("failed to create test file: %v", err)
 			}
-			defer os.Remove(tt.fileName) // Удаляем файл после теста
+			defer os.Remove(tt.fileName)
 
 			data, err := ReadFile(tt.fileName)
 			if tt.shouldFail {
