@@ -24,22 +24,22 @@ This project is a Go application designed to read a JSON file containing an arra
 
 ## Project Structure
 your_project/ <br>
-├ cmd/      <br>
-│   └ main.go           
-├ internal/<br>
-│   ├ app/<br>
-│   │   └ app.go  
-│   ├ data/<br>
-│   │   └ data.go     
-│   │   └ models.go  
-│   └ worker/<br>
-│       └ worker.go      
-├ tools/<br>
-│   └ datagen/<br>
-│       └ number_generator.go      
-├ go.mod<br>
-├ Makefile<br>
-└ README.md
+├── cmd/      <br>
+│   └── main.go           
+├── internal/<br>
+│   ├── app/<br>
+│   │   └── app.go  
+│   ├── data/<br>
+│   │   └── data.go     
+│   │   └── models.go  
+│   └── worker/<br>
+│       └── worker.go      
+├── tools/<br>
+│   └── datagen/<br>
+│       └── number_generator.go      
+├── go.mod<br>
+├── Makefile<br>
+└── README.md
 
 ## Usage
 
